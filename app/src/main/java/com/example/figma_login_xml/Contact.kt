@@ -22,7 +22,7 @@ fun getContact(): Contact? {
         else -> null // В случае ошибки возвращаем null или обработайте ошибку по своему усмотрению
     }
 }
-//
+//git remote add origin https://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@github.com/gabdulkaliev/login_xml.git
 //fun fetchRandomUserData(): Contact {
 //    val client = OkHttpClient()
 //    val request = Request.Builder()
