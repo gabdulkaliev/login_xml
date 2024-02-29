@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" /> <!-- Цвет фона кнопки -->
+        </shape>
+    </item>
+    <!-- Border -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000" /> <!-- Прозрачность, чтобы не перекрывать фон -->
+            <stroke
+                android:width="5dp"
+                android:color="#3498DB" /> <!-- Цвет обводки -->
+        </shape>
+    </item>
+</layer-list>
